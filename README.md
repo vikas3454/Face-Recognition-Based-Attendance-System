@@ -6,6 +6,7 @@ Software for Industry , where they can track the attendence of their employee wi
 Hi i am Vikass
 welcome to Gitam
 Dont be violent
+run the command
 ## Table of Contents
 - [Project Plan](#project-plan)
 - [Features](#features)
