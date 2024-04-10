@@ -3,7 +3,8 @@
 
 ## Description
 Software for Industry , where they can track the attendence of their employee with the help of face recognition using OpenCV library.
-
+Hi i am Vikass
+welcome
 ## Table of Contents
 - [Project Plan](#project-plan)
 - [Features](#features)
