@@ -47,7 +47,7 @@ Follow these steps to set up the project locally:
 
 bash
 Copy code
-git clone https://github.com/yourusername/face-recognition-attendance-system.git
+git clone https://github.com/vikas3454/face-recognition-attendance-system.git
 Navigate to the project directory:
 
 bash
