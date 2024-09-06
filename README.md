@@ -1,52 +1,81 @@
+**Face Recognition Based Attendance System**
 
-# Face Recognition Attendance System 
+**Description**
 
-## Description
-Software for Industry , where they can track the attendence of their employee with the help of face recognition using OpenCV library.
-## Table of Contents
-- [Project Plan](#project-plan)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+This project is designed for industries to track the attendance of their employees using face recognition technology. Utilizing a Convolutional Neural Network (CNN) for face detection, the system allows for the automatic logging of attendance. The project is built using Python (Flask), HTML, CSS, and JavaScript for a smooth and interactive user interface.
 
-## Project Plan
-- Task:
-  - [x] Create a home page
-  - [x] Show attendence log on home for particular day
-  - [ ] Recreate a HTML , bootstrap boilerplate and remove unwanted code
-  - [ ] Show date and day on home page
-  - [ ] Company name should be visible on home page
-  - [ ] Show list of total Employee on home page
-  - [ ] Create a Admin panel
-  - [ ] Give various rights to admin 
-  - [ ] Work on UI
+**Table of Contents**
 
-## Features
-- Adding a New User
+Project Plan
+Features
+Installation
+Usage
+Contributing
+License
+Project Plan
+Task List:
 
--	Capturing Live Images
+Create a home page
+Show attendance log on the home page for a particular day
+Recreate a clean HTML and Bootstrap boilerplate; remove unnecessary code
+Display the current date and day on the home page
+Display the company name on the home page
+Show a list of all employees on the home page
+Create an admin panel
+Provide various administrative rights
+Improve the UI for better user experience
 
--	To understand the Total number of Users in Database
-  
--	Click on Take Attendance 
+**Features**
 
--	Multiple User Faces can be detected
+Adding a New User: Register employees with facial recognition for attendance tracking.
+Capturing Live Images: The system captures live images for face detection.
+View Users in the Database: Easily see the total number of registered users.
+Take Attendance: Click the 'Take Attendance' button to log attendance for multiple employees.
+Multiple User Detection: Recognize multiple faces at once using CNN for efficient attendance logging.
+Attendance Display: View attendance records for all employees on the dashboard.
+**Technologies Used**
 
--	Attendance of Multiple Users taken
+HTML/CSS: For structuring and styling the web interface.
+JavaScript: To enhance the interactivity of the front end.
+Python (Flask): Backend logic and server-side functionality.
+CNN (Convolutional Neural Networks): Used for face recognition and detection.
+Installation
+Follow these steps to set up the project locally:
 
--	Attendance of Users displayed
+**Clone the repository:**
 
-## Installation
-- Explain how to install or set up the project.
 
-## Usage
-- this is useful in tracking the attendence of your employees
+bash
+Copy code
+git clone https://github.com/yourusername/face-recognition-attendance-system.git
+Navigate to the project directory:
 
-## Contributing
-- Contributers are welcomed, you can simply fork the repo and contribute , and make PR
-- Dont wait for getting issue assigned to you
-## License
-- Include information about the project's license.
+bash
+Copy code
+cd face-recognition-attendance-system
+Install the required Python packages:
 
+bash
+Copy code
+pip install -r requirements.txt
+Install OpenCV and additional libraries:
+
+bash
+Copy code
+pip install opencv-python tensorflow
+Run the Flask application:
+
+bash
+Copy code
+python app.py
+Open your browser and go to:
+
+arduino
+Copy code
+http://127.0.0.1:5000
+Usage
+This software is essential for industries aiming to streamline and automate employee attendance tracking through the use of CNN-based face recognition.
+
+**Contributing**
+
+Contributors are welcome! Fork the repository, make your changes, and submit a pull request. There’s no need to wait for an issue to be assigned—feel free to start contributing right away!
